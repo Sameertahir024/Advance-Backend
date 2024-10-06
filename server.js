@@ -17,7 +17,7 @@ app.use(cors());
 app.use(limiter);
 
 app.get("/", (req, res) => {
-  return res.json({ message: "Hello It's working.." });
+  return res.json({ message: " working.." });
 });
 
 // * Import routes
